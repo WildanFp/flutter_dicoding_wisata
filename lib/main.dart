@@ -9,7 +9,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Wisata Bandung',
-      theme: ThemeData(),
+      theme: ThemeData(
+        primarySwatch: Colors.grey,
+      ),
       home: const DetailScreen(),
     );
   }
