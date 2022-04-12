@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_dicoding_wisata/detail_screen.dart';
+import 'package:flutter_dicoding_wisata/main_screen.dart';
 
 void main() => runApp(const MyApp());
 
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const DetailScreen(),
+      home: MainScreen(),
     );
   }
 }
